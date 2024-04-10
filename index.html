@@ -1,9 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+    <title>Calculating Celsius to Fahrenheit</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
   </head>
   <body>
-    <p>Paragraph</p>
+    <!-- Scripts -->
+    <script src="/js/script.js"></script>
+    <h1>Calculating Celsius to Fahrenheit in Javascript</h1>
+
+    <br>
+    <center>
+      <table>
+        <tr>
+          <th>
+            <img src="images/Thermometer.avif" style="width: 250px;"> 
+          </th>
+          <td>
+            <p>Input the temperature:</p> <br>
+            <input id="celsius" placeholder="Temperature (celsius)" type="number" min="0" step=".1">
+            <br>
+            <br>
+            <button onclick="Calculate()" id="Calculate Button">Calculate</button>
+            <br>
+            <div id="Output"> <p>Temperature:</p> </div>
+          </td>
+        </tr>
+      </table>
+    </center>
   </body>
 </html>

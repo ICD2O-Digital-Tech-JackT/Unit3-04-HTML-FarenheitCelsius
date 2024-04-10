@@ -1,5 +1,8 @@
-// Copyright (c) 2020 Mr. Coxall All rights reserved
-//
-// Created by: Mr. Coxall
-// Created on: Sep 2020
-// This file contains the JS functions for index.html
+function Display(fahrenheit){
+  document.getElementById("Output").innerHTML = "Fahrenheit: " + fahrenheit; 
+}
+function Calculate(){
+  let Celsius = document.getElementById("celsius").value;
+  let fahrenheit = (Celsius * (9/5)) + 32;
+  Display(fahrenheit)
+}
